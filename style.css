@@ -1,0 +1,26 @@
+  
+h3 {
+  text-align: center;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.greenbold {
+  color: green;
+  font-weight: bold;
+}
+
+.redbold {
+  color:red;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color:red;
+}

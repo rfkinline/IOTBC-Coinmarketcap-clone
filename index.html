@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coinmarketcap Clone</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+  </head>
+  <body>
+<!--- navbar--->
+    <div class="container">
+      <hr>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="brand" href="#">Crypto Leader </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active"><a class="nav-link" href="#">Cryptocurrencies <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Exchanges</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tools</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Learn</a></li>
+            </ul>
+          </div>
+        </nav>
+        <hr>
+      </div>
+<!--- end navbar --->
+
+    <br>
+    <div class="container">
+      <h3>Top 100 Cryptocurrencies by Market Capitalization</h3>
+    </div>
+    <br>
+
+<!--- table--->
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Cryptocurrencies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Exchanges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Watchlist</a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="container-fluid">
+      <table class="table">
+      <thead>
+        <tr>
+          <th scope="col-1">Rank</th>
+          <th scope="col-2">Name | Symbol</th>
+          <th scope="col-2">Market Cap</th>
+          <th scope="col-1">Price</th>
+          <th scope="col-3">Volume(24H)</th>
+          <th scope="col-1">Circulating Supply</th>
+          <th scope="col-1">Change(24H)</th>
+          <th scope="col-1">Price Diff(24H)</th>
+        </tr>
+      </thead>
+      <tbody id="outputTable">
+        <tr>
+          <th scope="row"></th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+  </div>
+<!--- total market cap --->
+<div class="container">
+<br>
+<br>
+<br>
+<hr>
+</div>
+<!--- end total market cap --->
+
+<!--- footer --->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--- end footer --->
+  </body>
+</html>
